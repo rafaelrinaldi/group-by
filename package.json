@@ -1,0 +1,28 @@
+{
+  "name": "group-by",
+  "version": "0.1.0",
+  "description": "Group a list of objects by a given field name (implemented with ES6 features)",
+  "jsnext:main": "index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.js",
+  "repository": "rafaelrinaldi/group-by",
+  "author": "Rafael Rinaldi <rafael@rinaldi.io>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "lint": "standard {index,test}.js",
+    "prepublish": "npm run build",
+    "test": " npm run lint; tape test.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  }
+}

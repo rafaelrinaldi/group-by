@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    "transform-object-rest-spread"
+  ],
+
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": 5,
+        "browsers": ["last 2 versions", "> 5%"]
+      }
+    }]
+  ]
+}
