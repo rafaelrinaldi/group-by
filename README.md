@@ -1,7 +1,7 @@
 [url]: http://rinaldi.io
 [es6]: http://es6-features.org
 
-# group-by [![Build Status](https://semaphoreci.com/api/v1/projects/b264dc61-16ef-44f3-8130-4fbb5dd25169/676578/badge.svg)](https://semaphoreci.com/rafaelrinaldi/hn-cli)
+# group-by [![Build Status](https://semaphoreci.com/api/v1/rafaelrinaldi/group-by/branches/master/badge.svg)](https://semaphoreci.com/rafaelrinaldi/group-by)
 
 > Group a list of objects by a given field name (implemented with [ES6 features][es6])
 
